@@ -8,6 +8,11 @@ body {
   line-height: 1.4em;
 }
 
+header img {
+  height: 1.5em;
+  padding-right: 15px;
+}
+
 header {
   background-color: black;
   color: white;
@@ -112,8 +117,8 @@ nav ul {
 
 img {
   border-style: none;
-
 }
+
 .description {
   display: block;
   background-color: black;
