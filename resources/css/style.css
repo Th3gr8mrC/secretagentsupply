@@ -19,7 +19,7 @@ header {
   }
 }
 .main-banner {
-  background-image: url("resources/moto.jpeg");
+  background-image: url(resources/moto.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
