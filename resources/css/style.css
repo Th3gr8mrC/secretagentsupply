@@ -1,0 +1,122 @@
+html {
+  font-size: 18px;
+  background-color: white;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  line-height: 1.4em;
+}
+
+header {
+  background-color: black;
+  color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+}
+.main-banner {
+  background-image: url("resources/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25em;
+
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.headline {
+  background-color: black;
+  color: white;
+  width: 20em;
+  padding: 2em 3em;
+  position: relative;
+  top: 9em;
+}
+
+h1, h4 {
+  font-weight: bold;
+}
+
+.headline h1 {
+  font-size: 2em;
+  line-height: 1.2em;
+  margin: 0.25em 0;
+}
+
+nav {
+  background-color: firebrick;
+  color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+  nav ul {
+    display: none;
+  }
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75em 0;
+  list-style: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mobile-nav {
+    display:block;
+    text-align: center;
+  }
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.products, .business-info {
+  display:flex;
+  justify-content: space-between;
+  margin: 3em 0 0 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .product {
+    width: 47%;
+  }
+}
+
+.product {
+  width: 30%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .product.glasses {
+    display: none;
+  }
+}
+
+.info {
+  width: 35%;
+}
+
+.info .title {
+  display: block;
+  border-color: black;
+  color: white;
+  padding: 1em 2em;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  padding: 5em 0;
+  margin-top: 4em;
+}
