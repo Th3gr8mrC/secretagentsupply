@@ -24,7 +24,7 @@ header {
   }
 }
 .main-banner {
-  background-image: url(resources/moto.jpeg);
+  background-image: url("./moto.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -94,7 +94,7 @@ nav ul {
 
 @media only screen and (max-width: 1024px) {
   .product {
-    width: 47%;
+    width: 50%;
   }
 }
 
@@ -148,4 +148,71 @@ footer{
   color: white;
   padding: 5em 0;
   margin-top: 4em;
+}
+
+@media only screen and (max-width: 470px)
+  {
+.headline {
+    width: 100%;
+    padding: 1em 2em;
+    top: 10em;
+}
+}
+
+@media only screen and (max-width: 470px)
+{
+  .main-banner {
+    height: 15em;
+}
+}
+
+@media only screen and (max-width: 470px)
+{
+.headline h4 {
+    font-size: .77rem;
+}
+}
+
+@media only screen and (max-width: 470px)
+{
+.headline h1 {
+    font-size: 1rem;
+}
+}
+
+@media only screen and (max-width: 470px)
+{
+  .products, .business-info {
+    flex-wrap: wrap;
+}
+}
+
+@media only screen and (max-width: 470px)
+{
+.product {
+    width: 90%;
+    margin: auto;
+}
+}
+
+@media only screen and (max-width: 470px)
+{
+.product.watch {
+    display: none;
+}
+}
+
+@media only screen and (max-width: 470px)
+{
+.info {
+    width: 90%;
+    margin: 0.5em auto;
+}
+}
+
+@media only screen and (max-width: 470px)
+{
+footer {
+    text-align: center;
+}
 }
