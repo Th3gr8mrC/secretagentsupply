@@ -24,7 +24,7 @@ header {
   }
 }
 .main-banner {
-  background-image: url("./moto.jpeg");
+  background-image: url("../moto.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
