@@ -75,16 +75,18 @@ nav ul {
   list-style: none;
 }
 
-@media only screen and (max-width: 1024px) {
-  .mobile-nav {
-    display:block;
-    text-align: center;
-  }
-}
-
 .mobile-nav {
   display: none;
 }
+
+@media only screen and (max-width: 1024px) {
+.mobile-nav {
+    display: block;
+    text-align: center;
+}
+}
+
+
 
 .products, .business-info {
   display:flex;
